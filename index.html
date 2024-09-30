@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Adopt a cat!</title>
-        <link rel="stylesheet" href="css/font-awesome/css/all.css">
-    </head>
-    <body>
-        <i class="fas fa-bars"></i>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adopt a cat!</title>
+    <link rel="stylesheet" href="css/font-awesome/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 700px)">
+</head>
+<body>
+    <header>
+        <nav class="nav nav--mobile">
+            <i class="fas fa-bars nav__symbol"></i>
+        </nav>
+        <nav class="nav nav--desktop">
+            <ul class="nav__link-list">
+                <li class="nav__link-item"><a href="#">How It Works</a></li>
+                <li class="nav__link-item"><a href="#">About Us</a></li>
+                <li class="nav__link-item"><a href="#">Contact</a></li>
+                <li class="nav__link-item"><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <article class="article">
+            <h1 class="article__title">Change a cat's life today!</h1>
+            <p class="article__text">
+                Adopt a cat from our cat shelter today. 
+                We have a variety of different cats to choose from.
+            </p>
+            <button class="button">
+                <p class="button__text">Find out how</p>
+            </button>
+        </article>
+        <aside>
+            <img class="image image--desktop" src="images/undraw_pet_adoption_desktop.png" alt="Pet Adoption">
+            <img class="image image--mobile" src="images/undraw_pet_adoption_mobile.png" alt="Pet Adoption">
+        </aside>
+    </main>
+</body>
 </html>

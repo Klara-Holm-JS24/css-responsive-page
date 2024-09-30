@@ -1,6 +1,6 @@
 # CSS - Responsiv sida
 ## Instruktioner
-1. Forka detta repo till din Github-användare och clona sedan ner det.
+1. Forka detta repo till din Github-användare och clona sedan ner det. ✅
 2. Studera bilderna (en för desktop och en för mobil) som ligger i mappen **mockup** och återskapa enlig design.
 3. Börja med rita upp delarna enlig block > container > element - principen.
 4. Bilden som ni ska använda finns i mappen **images**.
